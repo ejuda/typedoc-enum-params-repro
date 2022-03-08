@@ -28,7 +28,7 @@ export declare const SomeEnum: {
 };
 ```
 
-Thanks to the PR closing issue #1740, TypeDoc correctly recognises this object
+Thanks to the PR closing issue [#1740](https://github.com/TypeStrong/typedoc/issues/1740), TypeDoc correctly recognises this object
 as an enum. Both the docstring of the enum-like object and the docstrings of
 its members should also be preserved.
 
@@ -37,7 +37,7 @@ its members should also be preserved.
 While the docstring of the enum-like object are preserved, those of its members
 are not:
 
-
+![image](https://user-images.githubusercontent.com/26031740/157270468-5bedef00-b6b4-42c6-90fb-115b756438e5.png)
 
 ## Steps to reproduce the bug
 
